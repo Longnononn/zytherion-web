@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zytherion-web.pages.dev/sitemap.xml

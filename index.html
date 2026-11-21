@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zytherion Arena — Nền tảng thi đấu Đế Chế trực tuyến cho game thủ Việt</title>
+<meta name="description" content="Zytherion Arena: tải bộ cài cho Windows, tạo phòng giao hữu Đế Chế 1vs1 – 4vs4, đấu rank, lập Quân Đoàn, tập Kick Đời với máy và xem cẩm nang chiến thuật.">
+<meta name="keywords" content="Zytherion Arena, Đế Chế, Age of Empires, đấu rank Đế Chế, giao hữu Đế Chế, Kick Đời, Quân Đoàn, tải Zytherion Arena">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Zytherion Arena">
+<meta name="theme-color" content="#0B1020">
+<link rel="canonical" href="https://zytherion-web.pages.dev/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏯%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zytherion Arena">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Zytherion Arena — Nền tảng thi đấu Đế Chế trực tuyến">
+<meta property="og:description" content="Giao hữu 1vs1 – 4vs4, đấu rank, Quân Đoàn, tập Kick Đời và cẩm nang Đế Chế. Tải bộ cài cho Windows.">
+<meta property="og:url" content="https://zytherion-web.pages.dev/">
+<meta property="og:image" content="https://zytherion-web.pages.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zytherion Arena — Nền tảng thi đấu Đế Chế trực tuyến">
+<meta name="twitter:description" content="Giao hữu 1vs1 – 4vs4, đấu rank, Quân Đoàn, tập Kick Đời và cẩm nang Đế Chế.">
+<meta name="twitter:image" content="https://zytherion-web.pages.dev/og-image.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","name":"Zytherion Arena","url":"https://zytherion-web.pages.dev/","inLanguage":"vi"},
+{"@type":"SoftwareApplication","name":"Zytherion Arena","applicationCategory":"GameApplication","operatingSystem":"Windows 10, Windows 11","description":"Nền tảng thi đấu Đế Chế trực tuyến: giao hữu 1vs1 – 4vs4, đấu rank, Quân Đoàn, tập Kick Đời và cẩm nang.","url":"https://zytherion-web.pages.dev/","image":"https://zytherion-web.pages.dev/og-image.png","inLanguage":"vi"},
+{"@type":"Organization","name":"Zytherion Arena","url":"https://zytherion-web.pages.dev/","email":"longnononpro@gmail.com","telephone":"+84333695833","contactPoint":{"@type":"ContactPoint","telephone":"+84333695833","email":"longnononpro@gmail.com","contactType":"customer support","availableLanguage":"vi"}}
+]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#EEF1F6;--surface:#FFFFFF;--text:#121A2C;--muted:#4A5470;--gold:#E8B04A;--gold-ink:#8A5806;--line:rgba(18,26,44,.14);--on-gold:#1A1204;
+  --serif:'Playfair Display',Georgia,'Times New Roman',serif;--sans:'Be Vietnam Pro','Segoe UI',system-ui,-apple-system,sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1020;--surface:#121A2E;--text:#F1EBDD;--muted:#A3AABD;--gold-ink:#E8B04A;--line:rgba(255,255,255,.12);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0B1020;--surface:#121A2E;--text:#F1EBDD;--muted:#A3AABD;--gold-ink:#E8B04A;--line:rgba(255,255,255,.12);color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+header{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+.brand{font-family:var(--serif);font-weight:900;font-size:22px;text-decoration:none;color:var(--text)}
+.brand b{color:var(--gold-ink)}
+
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:10px;padding:16px 32px;border-radius:12px;background:linear-gradient(180deg,#F6C768,#E8A53A);color:var(--on-gold);font-weight:700;font-size:16px;text-decoration:none;box-shadow:0 12px 34px -10px rgba(232,176,74,.8);transition:transform .2s ease,box-shadow .2s ease}
+.btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.65),transparent);transform:skewX(-20deg);animation:shine 3.6s ease-in-out infinite 1.8s}
+.btn:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 18px 40px -10px rgba(232,176,74,.95)}
+.btn:active{transform:translateY(0) scale(.99)}
+.btn.sm{padding:9px 18px;font-size:13px;border-radius:9px}
+@keyframes shine{0%,55%{left:-60%}100%{left:130%}}
+
+/* Sân khấu hero: luôn tối */
+.stage{position:relative;overflow:hidden;isolation:isolate;border-radius:28px;padding:96px 24px 88px;text-align:center;color:#F1EBDD;
+  background:radial-gradient(ellipse at 50% 0%,#1B2748 0%,#0B1020 62%);border:1px solid rgba(232,176,74,.35)}
+.drum{position:absolute;left:50%;top:50%;width:min(860px,150vw);aspect-ratio:1;transform:translate(-50%,-50%);z-index:-1;pointer-events:none;opacity:0;animation:fadein 1.6s ease .1s forwards}
+.drum>*{position:absolute;border-radius:50%}
+.r1{inset:0;border:1.5px dashed rgba(232,176,74,.4);animation:spin 80s linear infinite}
+.r2{inset:9%;border:3px dotted rgba(232,176,74,.35);animation:spin 55s linear infinite reverse}
+.r3{inset:19%;background:repeating-radial-gradient(circle,transparent 0 16px,rgba(232,176,74,.28) 16px 18px);-webkit-mask:radial-gradient(circle,transparent 38%,#000 40%);mask:radial-gradient(circle,transparent 38%,#000 40%);animation:breathe 7s ease-in-out infinite}
+.rays{inset:27%;background:repeating-conic-gradient(from 0deg,rgba(232,176,74,.5) 0 5deg,transparent 5deg 25.714deg);-webkit-mask:radial-gradient(circle,#000 28%,transparent 29%,transparent 52%,#000 53%,#000 100%,transparent 101%);mask:radial-gradient(circle,#000 28%,transparent 29%);animation:spin 120s linear infinite}
+.core{inset:41%;background:radial-gradient(circle,rgba(246,199,104,.55),transparent 70%);animation:pulse 4.5s ease-in-out infinite}
+.stage::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at center,rgba(11,16,32,.2) 20%,rgba(11,16,32,.85) 75%)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes breathe{50%{transform:scale(1.05);opacity:.7}}
+@keyframes pulse{50%{transform:scale(1.35);opacity:.55}}
+@keyframes fadein{to{opacity:1}}
+
+.embers{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.embers i{position:absolute;bottom:-10px;width:var(--s);height:var(--s);border-radius:50%;background:#F6C768;box-shadow:0 0 10px 2px rgba(246,199,104,.7);opacity:0;animation:rise var(--d) linear var(--l) infinite}
+@keyframes rise{0%{transform:translate(0,0);opacity:0}12%{opacity:.9}100%{transform:translate(var(--x),-520px);opacity:0}}
+
+.stage .in{opacity:0;transform:translateY(24px);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+.stage .i1{animation-delay:.25s}.stage .i2{animation-delay:.45s}.stage .i3{animation-delay:.65s}.stage .i4{animation-delay:.85s}
+@keyframes up{to{opacity:1;transform:none}}
+.badge{display:inline-block;padding:6px 16px;border-radius:99px;border:1px solid rgba(232,176,74,.5);background:rgba(232,176,74,.08);font-size:13px;font-weight:600;color:#F6C768;margin-bottom:22px}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,64px);line-height:1.12;margin:0 auto 20px;max-width:16ch;color:#F6C768;
+  background:linear-gradient(100deg,#E8B04A 0%,#FFF1C4 40%,#E8B04A 60%,#C98A1F 100%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:up .9s cubic-bezier(.2,.7,.2,1) .45s forwards,sheen 6s ease-in-out 1.4s infinite;opacity:0;transform:translateY(24px)}
+@keyframes sheen{0%,100%{background-position:100% 0}50%{background-position:0 0}}
+.lead{font-size:17px;color:#B9C0D3;max-width:52ch;margin:0 auto 34px}
+.meta{margin-top:16px;font-size:13px;color:#98A1B8}
+
+/* Tính năng */
+section.block{padding:84px 0 0}
+h2{font-family:var(--serif);font-weight:700;font-size:clamp(26px,3.4vw,38px);line-height:1.2;margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{position:relative;overflow:hidden;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:26px;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--mx,50%) var(--my,0%),rgba(232,176,74,.22),transparent 70%);opacity:0;transition:opacity .25s}
+.card:hover{transform:translateY(-6px);border-color:rgba(232,176,74,.65);box-shadow:0 24px 40px -24px rgba(232,176,74,.45)}
+.card:hover::before{opacity:1}
+.card>*{position:relative}
+.ico{width:46px;height:46px;display:grid;place-items:center;border-radius:12px;background:rgba(232,176,74,.16);font-size:22px;margin-bottom:16px;transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
+.card:hover .ico{transform:rotate(-8deg) scale(1.12)}
+.card h3{margin:0 0 8px;font-size:17px}
+.card p{margin:0;font-size:14.5px;color:var(--muted)}
+
+/* Cài đặt */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:s}
+.steps li{position:relative;counter-increment:s;padding-top:18px;color:var(--muted);font-size:15px}
+.steps li::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold);transform-origin:left;transform:scaleX(0);transition:transform 1s cubic-bezier(.2,.7,.2,1) .2s}
+.steps li.in::before{transform:scaleX(1)}
+.steps li::after{content:counter(s);display:block;order:-1}
+.num{display:block;font-family:var(--serif);font-weight:900;font-size:38px;line-height:1;color:var(--gold-ink);margin-bottom:8px}
+.steps strong{color:var(--text)}
+code{font:600 13px ui-monospace,Menlo,Consolas,monospace;background:var(--surface);border:1px solid var(--line);padding:2px 6px;border-radius:5px}
+.steps li::after{display:none}
+.cta{margin-top:40px;text-align:center}
+
+.js .reveal{opacity:0;transform:translateY(32px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--dl,0s)}
+.js .reveal.in{opacity:1;transform:none}
+.js .card.reveal.in{transition:opacity .8s cubic-bezier(.2,.7,.2,1) var(--dl,0s),transform .25s ease,border-color .25s,box-shadow .25s}
+footer.site{margin-top:84px;border-radius:24px 24px 0 0;background:#0B1020;color:#C9CFDF;border:1px solid rgba(232,176,74,.3);border-bottom:0;padding:48px 36px 0}
+.fgrid{display:grid;grid-template-columns:1.2fr 1fr 1.2fr 1fr;gap:36px}
+.fgrid h4{margin:0 0 18px;padding-left:12px;border-left:3px solid #E8B04A;font-size:16px;color:#F1EBDD}
+.flogo{font-family:var(--serif);font-weight:900;font-size:26px;color:#F6C768;letter-spacing:.02em}
+.fabout{font-size:14px;line-height:1.7;color:#98A1B8;margin:10px 0 0}
+.flist{list-style:none;margin:0;padding:0;display:grid;gap:12px;font-size:14px}
+.flist a{color:#98A1B8;text-decoration:none;transition:color .2s,padding .2s}
+.flist a:hover{color:#F6C768;padding-left:5px}
+.ct{display:flex;align-items:center;gap:12px;margin-bottom:14px;font-size:14px;word-break:break-word}
+.ci{width:38px;height:38px;flex:none;display:grid;place-items:center;border-radius:10px;background:rgba(255,255,255,.06);color:#F6C768;transition:background .2s,transform .2s}
+.ct:hover .ci{background:rgba(232,176,74,.2);transform:scale(1.08)}
+.ct a{color:#E4E8F2;text-decoration:none}.ct a:hover{color:#F6C768}
+.fbot{margin-top:36px;padding:18px 0 24px;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:12.5px;color:#7F88A0}
+@media (max-width:900px){.fgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.fgrid{grid-template-columns:1fr}footer.site{padding:36px 22px 0}}
+
+@media (max-width:760px){.stage{padding:72px 20px 64px;border-radius:22px}.steps{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .stage .in,h1,.drum{opacity:1!important;transform:none!important}
+  .js .reveal{opacity:1;transform:none}.steps li::before{transform:none}
+  h1{-webkit-text-fill-color:#F6C768;background:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="#top">Zytherion <b>Arena</b></a>
+    <!-- Thay Longnononn/zytherion-web bằng repo GitHub Releases của bạn -->
+    <a class="btn sm" id="hdrDlLink" href="https://github.com/Longnononn/zytherion-web/releases/latest/download/ZytherionArena_Setup.exe">Tải bộ cài</a>
+  </header>
+
+  <main id="top">
+    <section class="stage">
+      <div class="drum" aria-hidden="true"><div class="r1"></div><div class="r2"></div><div class="r3"></div><div class="rays"></div><div class="core"></div></div>
+      <div class="embers" id="embers" aria-hidden="true"></div>
+      <span class="badge in i1">Nền tảng Đế Chế Việt Nam</span>
+      <h1>Nền Tảng Thi Đấu Đế Chế Trực Tuyến</h1>
+      <p class="lead in i2">Tạo phòng Giao Hữu 1vs1 – 4vs4, Đấu Rank, Tập Kick Đời với Máy và Cẩm Nang Đế Chế gọn nhẹ, ổn định cho Windows.</p>
+      <div class="in i3"><a class="btn" id="mainDlLink" href="https://github.com/Longnononn/zytherion-web/releases/latest/download/ZytherionArena_Setup.exe">⬇ Tải Bộ Cài Zytherion Arena (Windows)</a></div>
+      <div class="meta in i4">Windows 10 / 11 (64-bit) • Tự động cập nhật khi có bản mới</div>
+    </section>
+
+    <section class="block">
+      <h2 class="reveal">Tính năng</h2>
+      <div class="grid">
+        <article class="card reveal" style="--dl:.05s"><div class="ico">⚔</div><h3>Giao Hữu 1vs1 – 4vs4</h3><p>Đầy đủ chế độ 1v1, 2v2, 3v3, 4v4, 4 luật đấu (Luật Chuẩn, Luật X, Death Match, Tự Do), chia đội cân kèo và phòng mật khẩu.</p></article>
+        <article class="card reveal" style="--dl:.15s"><div class="ico">★</div><h3>Đấu Rank &amp; Quân Đoàn</h3><p>Ghép trận 1vs1 ngang trình độ, vinh danh bảng xếp hạng và lập Quân Đoàn giao lưu cùng đồng đội.</p></article>
+        <article class="card reveal" style="--dl:.25s"><div class="ico">⏱</div><h3>Tập Kick Đời VS Máy</h3><p>Tự động vào game chọn sẵn quân &amp; 1 Máy, đo chính xác thời điểm bấm nút Kích Đời III và chấm hạng S/A/B/C.</p></article>
+        <article class="card reveal" style="--dl:.35s"><div class="ico">📖</div><h3>Cẩm Nang &amp; Phím Tắt</h3><p>Tích hợp sẵn bảng phím tắt chuẩn và trọn bộ 14 bài hướng dẫn lên đời, chiến thuật 16 Đế Chế.</p></article>
+      </div>
+    </section>
+
+    <section class="block" id="cai-dat">
+      <h2 class="reveal">Hướng Dẫn Cài Đặt Nhanh</h2>
+      <ol class="steps">
+        <li class="reveal" style="--dl:.05s"><span class="num">1</span>Bấm nút <strong>Tải Bộ Cài Zytherion Arena</strong> ở trên để tải tệp <code>ZytherionArena_Setup.exe</code>.</li>
+        <li class="reveal" style="--dl:.2s"><span class="num">2</span>Mở tệp cài đặt và làm theo hướng dẫn trên màn hình.</li>
+        <li class="reveal" style="--dl:.35s"><span class="num">3</span>Mở <strong>Zytherion Arena</strong>, đăng nhập tài khoản và bắt đầu thi đấu.</li>
+      </ol>
+      <div class="cta reveal"><a class="btn" href="https://github.com/Longnononn/zytherion-web/releases/latest/download/ZytherionArena_Setup.exe">⬇ Tải Bộ Cài Zytherion Arena</a></div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="fgrid">
+      <div>
+        <div class="flogo">ZYTHERION ARENA</div>
+        <p class="fabout">Nền tảng thi đấu Đế Chế trực tuyến cho cộng đồng game thủ Việt: giao hữu 1vs1 – 4vs4, đấu rank, tập Kick Đời và cẩm nang chiến thuật.</p>
+      </div>
+      <div>
+        <h4>Liên kết nhanh</h4>
+        <ul class="flist">
+          <li><a href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
+          <li><a href="an-toan-tre-em.html">Chính sách an toàn trẻ em</a></li>
+          <li><a href="dieu-khoan-dich-vu.html">Điều khoản dịch vụ</a></li>
+          <li><a href="thoa-thuan-dich-vu.html">Thỏa thuận cung cấp dịch vụ</a></li>
+          <li><a href="#top">Trang chủ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Thông tin liên hệ</h4>
+        <div class="ct"><span class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><a href="mailto:longnononpro@gmail.com">longnononpro@gmail.com</a></div>
+        <div class="ct"><span class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><a href="tel:+84333695833">0333 695 833</a></div>
+        <!-- Có địa chỉ / tên đơn vị vận hành thì thêm một dòng .ct nữa ở đây -->
+      </div>
+      <div>
+        <h4>Thông tin sản phẩm</h4>
+        <ul class="flist">
+          <li>Windows 10 / 11 (64-bit)</li>
+          <li>Tự động cập nhật khi có bản mới</li>
+          <li><a href="https://github.com/Longnononn/zytherion-web/releases/latest/download/ZytherionArena_Setup.exe">Tải bộ cài</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">© 2026 Zytherion Arena. Tất cả quyền được bảo lưu. Tên và hình ảnh liên quan đến Đế Chế / Age of Empires thuộc quyền sở hữu của chủ sở hữu tương ứng.</div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  // đom đóm bay lên
+  var box=document.getElementById('embers'),h='';
+  for(var i=0;i<18;i++){
+    var s=2+Math.random()*3;
+    h+='<i style="left:'+(Math.random()*100)+'%;--s:'+s+'px;--d:'+(7+Math.random()*7)+'s;--l:'+(-Math.random()*12)+'s;--x:'+((Math.random()-.5)*120)+'px"></i>';
+  }
+  box.innerHTML=h;
+  // hiện dần khi cuộn tới
+  var els=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+    els.forEach(function(el){io.observe(el)});
+  }else{els.forEach(function(el){el.classList.add('in')})}
+  // vệt sáng theo con trỏ trên thẻ
+  document.querySelectorAll('.card').forEach(function(c){
+    c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')});
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://zytherion-web.pages.dev/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://zytherion-web.pages.dev/chinh-sach-bao-mat.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zytherion-web.pages.dev/an-toan-tre-em.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zytherion-web.pages.dev/dieu-khoan-dich-vu.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zytherion-web.pages.dev/thoa-thuan-dich-vu.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
